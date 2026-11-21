@@ -111,6 +111,12 @@ El detalle de cada uno (datos de entrada y respuestas) está en Swagger.
    permiso responde **403**.
 5. Cuando el access token vence, `POST /auth/refresh` entrega un par nuevo sin pedir la clave otra vez.
 
+## Documentación
+
+- [Documentación de APIs](docs/Documentacion_APIs.md): endpoints, cuerpos, respuestas y códigos de error.
+- [APIs e Integración](docs/APIs_e_Integracion.md): cómo se comunica el frontend con este API, flujos y seguridad.
+- ERS, manual de usuario y cobertura de pruebas del frontend: carpeta `docs/` de [Front_Esen](https://github.com/Daartw/Front_Esen/tree/main/docs).
+
 ## Pruebas
 
 ```bash
